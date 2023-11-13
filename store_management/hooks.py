@@ -4,7 +4,7 @@ app_publisher = "dennis low"
 app_description = "for managing store with geolocation"
 app_email = "dennislxj96@gmail.com"
 app_license = "MIT"
-# test
+
 # required_apps = []
 
 # Includes in <head>
