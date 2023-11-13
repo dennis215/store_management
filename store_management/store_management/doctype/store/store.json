@@ -13,6 +13,9 @@
   "naming_series",
   "store_name",
   "city",
+  "state",
+  "postal_code",
+  "country",
   "column_break_jazr",
   "customer",
   "customer_name",
@@ -104,12 +107,27 @@
    "fieldname": "tab_2_tab",
    "fieldtype": "Tab Break",
    "label": "Tab 2"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal code"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-29 13:40:14.069073",
+ "modified": "2023-11-13 13:13:54.222778",
  "modified_by": "Administrator",
  "module": "store-management",
  "name": "Store",

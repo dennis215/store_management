@@ -23,6 +23,10 @@ frappe.ui.form.on("Store", {
                 console.log(postal_code);      
                 console.log(state);      
                 console.log(city);  
+                frm.set_value('city',city);
+                frm.set_value('state',state);
+                frm.set_value('postal_code',postal_code);
+                frm.set_value('country',country);
                 frm.set_value('longitude',longitude);
                 frm.set_value('latitude',latitude);
             }
